@@ -27,9 +27,9 @@ ale();
 let text = "lorem";
 function tx(x) {
   if (text === x) {
-    console.log("привет мир");
+    console.log(`привет мир ${x}`);
   } else {
-    console.log("error");
+    console.log(`error  ${x} `);
   }
 }
-tx("lorem");
+tx("loredm");
